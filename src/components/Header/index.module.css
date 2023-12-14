@@ -16,6 +16,14 @@
   color: #333;
 }
 
+.headerItem:hover {
+  color: #007BFF; /* Altere para a cor desejada */
+}
+
+.active {
+  border-bottom: 2px solid #007BFF; /* Altere para a cor desejada */
+}
+
 body {
   padding-top: 60px;
 }
