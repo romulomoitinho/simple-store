@@ -8,21 +8,3 @@
 .text:hover {
   filter: drop-shadow(0 0 1em #ffffff);
 }
-
-.header {
-  position: fixed; /* Faz o cabeçalho ficar fixo */
-  top: 0; /* Alinha o cabeçalho com o topo da página */
-  left: 0; /* Alinha o cabeçalho com o lado esquerdo da página */
-  width: 100%; /* Faz o cabeçalho ocupar toda a largura */
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-  background-color: #f5f5f5;
-  box-sizing: border-box;
-}
-
-.headerItem {
-  cursor: pointer;
-  font-size: 18px;
-  color: #333;
-}

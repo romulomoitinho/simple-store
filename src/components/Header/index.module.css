@@ -6,8 +6,9 @@
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: #f02525;
   box-sizing: border-box;
+  border-radius: 7px;
 }
 
 .headerItem {
@@ -17,11 +18,11 @@
 }
 
 .headerItem:hover {
-  color: #007BFF; /* Altere para a cor desejada */
+  color: #ffffff;
 }
 
 .active {
-  border-bottom: 2px solid #007BFF; /* Altere para a cor desejada */
+  border-bottom: 2px solid #ffffff;
 }
 
 body {

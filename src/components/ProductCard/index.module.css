@@ -1,23 +1,24 @@
 .productCard {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    text-align: center;
-  }
-  
-  .productImage {
-    width: 100%;
-    height: auto;
-  }
-  
-  .productName {
-    margin: 10px 0;
-    font-size: 18px;
-  }
-  
-  .productId {
-    color: #888;
-    font-size: 14px;
-  }
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  width: auto;
+  text-align: center;
+}
+
+.productImage {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.productName {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.productId {
+  color: #888;
+  font-size: 14px;
+}
